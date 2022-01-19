@@ -2,9 +2,11 @@
 # via Prof. Emily Hill
 # Beginning Python Challenge
 
-# Day 09
-# Reading & Writing Functions
-# What does this program output 
+import Day10_
+Day10_
 
-import Day08_TwoSquares
-Day08_TwoSquares
+# def main(fileName):
+#   import fileName
+#   fileName
+
+# main(Day09_Pyramid)

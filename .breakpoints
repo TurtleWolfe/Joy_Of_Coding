@@ -1,11 +1,25 @@
 {
   "files": {
+    "Day10_.py": [
+      {
+        "id": "53d69ffa-98cb-4ef2-a635-6807ec1f0f22",
+        "line": 13,
+        "version": 4,
+        "index": 249
+      }
+    ],
     "main.py": [
       {
         "id": "7c4020f9-4c55-49f6-be6b-025af55e76d7",
-        "line": 9,
-        "version": 3212,
-        "index": 148
+        "line": 5,
+        "version": 3265,
+        "index": 69
+      },
+      {
+        "id": "89dfe639-6d0b-4827-9e95-c77d9e7979c1",
+        "line": 10,
+        "version": 3319,
+        "index": 163
       }
     ]
   }
