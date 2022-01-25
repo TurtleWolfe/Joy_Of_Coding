@@ -4,6 +4,18 @@
 
 # Day 12
 # While Loops (2 hours)
+#################################################
+
+# John Lennon is my favorite beatle
+# Paul McCartney is my favorite beatle
+# George Harrison is my favorite beatle
+# Ringo Star is NOT my favorite beatle
+
+# 2
+
+
+#################################################
+
 
 def main():
   print("Day 12 While Loops")
