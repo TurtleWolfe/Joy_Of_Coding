@@ -7,42 +7,27 @@
 #################################################
 
 # (WW1) Using a while loop, write a program that prints out the even numbers from 2 to 20.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+def even(start,end):
+  # print(end)
+  while start < (end+1):
+    if start%2==0:
+        print(start)
+    start = start+1
 
 # (WW2) Write a program that gets a string as input from the user, and finds the index of the first occurrence of the letter ‘e’ (upper or lower case). Your program should define a function that takes a string as a parameter and returns the e index. If the string does not contain an e, the function should return -1.
 
 # Example call        Returns
 # find_e(“hello”)     1
+# find_e(“hEllo”)     1
 # find_e(“how”)        -1
-
-
-
-
-
-
-
-
-
-
-
-
+def find_e(str):
+  # str=eval(input("Word Me: "))
+  str=str.lower()
+  if str.count('e')>=1:
+    print(str, ":first (e) occurs at index ? position")
+    # first E or e
+  else:
+    print("-1")
 
 # (WW3) Create a program that allows the user to enter a list of strings, prints them out in sorted order, and prints the number of strings entered as well as the total number of characters in all the strings in the list. Prompt the user to continue entering phrases, and enter ‘Q’ when finished. If the user enters an empty string, output an informative error message. Test your program.
 
@@ -55,6 +40,16 @@
 # > Please enter a phrase (‘Q’ to finish) q
 # > Please enter a phrase (‘Q’ to finish) Q
 # > You entered 4 strings and 29 characters.
+def printInput(str):
+  # str=eval(input("Word Me: "))
+  str=str.lower()
+  # if str.count('e')>=1:
+  #   print(str, ":first (e) occurs at index ? position")
+  #   # first E or e
+  # else:
+  print(str)
+
+
 # (WF1) Write a program that reads in a file of strings (one per line), creates a new file, and prints out each line followed by the number of characters in each line. At the end of the new file your program should print the total and average number of characters per line. Test that your program works with the following file of strings (you need to create this file in PyCharm):
 
 
@@ -86,24 +81,16 @@
 # Cinderella : 10
 # 201 characters and 16.75 characters per line
 
-
-
-
-
-
-
-
-
-
-
-
+def printFileInput(str):
+  # str=eval(input("Word Me: "))
+  str=str.lower()
+  # if str.count('e')>=1:
+  #   print(str, ":first (e) occurs at index ? position")
+  #   # first E or e
+  # else:
+  print(str)
 
 # (WF2) Write a program that reads in a file of numbers (one per line) and prints out the sum, mean, and median of the numbers. Test that your program works with the following files of numbers (you will need to create these in PyCharm):
-
-
-
-
-
 # 3
 # 30
 # 4
@@ -124,8 +111,6 @@
 # 25
 # 23
 # 2
-
-
 
 # Outputs for first file of numbers:
 # Sum: 136
@@ -136,16 +121,14 @@
 # Sum: 132
 # Mean: 14.666666666666666
 # Median 4
-
-
-
-
-
-
-
-
-
-
+def printNumberFilez(str):
+  # str=eval(input("Word Me: "))
+  str=str.lower()
+  # if str.count('e')>=1:
+  #   print(str, ":first (e) occurs at index ? position")
+  #   # first E or e
+  # else:
+  print(str)
 
 # Challenge Exercise
 
@@ -157,27 +140,6 @@
 # mix_lists([12], [abcd])         returns [1a2bcd]
 # mix_lists([1234], [ab])         returns [1a2b34]
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Hints:
 # Just try to print the list/file in the right order, then worry about returning 
 # What happens if one list/file is longer than the other? There are two approaches:
@@ -186,29 +148,25 @@
 
 # Challenge Exercise
 
+def mix_lists(str):
+  # str=eval(input("Word Me: "))
+  str=str.lower()
+  # if str.count('e')>=1:
+  #   print(str, ":first (e) occurs at index ? position")
+  #   # first E or e
+  # else:
+  print(str)
+
 # (FC) Implement & test the function 
 # mix_files(fname1, fname2, outfile) which returns a combined string. E.g.:
-
-
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+def mix_files(str):
+  # str=eval(input("Word Me: "))
+  str=str.lower()
+  # if str.count('e')>=1:
+  #   print(str, ":first (e) occurs at index ? position")
+  #   # first E or e
+  # else:
+  print(str)
 
 
 #################################################
@@ -216,10 +174,29 @@
 
 def main():
   print("Day12_26_WritingWhiles_Files")
-  print()
+  # print()
   # print("Day 12 While Loops")
   print()
 
+  # even(2,20)
+  # even(2,20)
+  # even(2,20)
+  even(2,20)
+  print()
+  # Example call        Returns
+  find_e("hello") #    1
+  find_e("hEllo") #    1
+  find_e("how")  #      -1
+  print()
+  printInput("Print Input") #    print Input
+  # print()
+  printFileInput("File Input") # print File Input
+  # print()
+  printNumberFilez("printNumberFilez") #
+  # print()
+  mix_files("mix_files") # mix_files
+  # print()
+  mix_lists("mix_lists") # mix_lists
 
   # # Testing Template
   # test_input = ["hellothere", "42 degrees Celsius", "eeeeeee"]

@@ -22,11 +22,11 @@
 # import Day12_25_ReadingWhilesEnrichment
 # Day12_25_ReadingWhilesEnrichment
 
-import Day12_26_WritingWhiles_Files
-Day12_26_WritingWhiles_Files
+# import Day12_26_WritingWhiles_Files
+# Day12_26_WritingWhiles_Files
 
-# import Day12_27_WritingWhiles_Activity
-# Day12_27_WritingWhiles_Activity
+import Day12_27_WritingWhiles_Activity
+Day12_27_WritingWhiles_Activity
 
 # import Day13_...
 # Day13_...

@@ -19,6 +19,14 @@
 #     print(average_neg_evens([0, 1, 2, -2, -3, -4, 3, 4]))
 
 #     Outputs: -3
+def average_neg_evens(str):
+  # str=eval(input("Word Me: "))
+  str=str.lower()
+  # if str.count('e')>=1:
+  #   print(str, ":first (e) occurs at index ? position")
+  #   # first E or e
+  # else:
+  print(str)
 
 #     Write a function count_letter that takes a list of strings and a string letter as parameters and returns the number of times this letter occurs, both upper- & lower-cased.
 
@@ -34,7 +42,14 @@
 #     For full credit, you must use a while loop once somewhere in your program.
 #     Your program should be ordered as follows: leading comment, any imports, function definitions, then lastly a main
 #     When testing your functions (by calling them in main), make sure to also include some descriptive output to determine if your test passed or failed
-
+def count_letter(str):
+  # str=eval(input("Word Me: "))
+  str=str.lower()
+  # if str.count('e')>=1:
+  #   print(str, ":first (e) occurs at index ? position")
+  #   # first E or e
+  # else:
+  print(str)
 #################################################
 
 
@@ -43,6 +58,14 @@ def main():
   print()
   print("Day 12 While Loops")
   print()
+  # print()
+#     list = [“HELLO”, “goodbye”, “1234 Oooh!”]
+#     print(count_letter(list, “o”))
+#     Outputs: 6
+  count_letter("count_letter") # count_letter
+  # print()
+  average_neg_evens("average_neg_evens") # average_neg_evens
+#     print(average_neg_evens([0, 1, 2, -2, -3, -4, 3, 4]))
 
   # # Testing Template
   # test_input = ["hellothere", "42 degrees Celsius", "eeeeeee"]
