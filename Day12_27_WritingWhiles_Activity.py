@@ -39,6 +39,8 @@
 
 
 def main():
+  print("Day12_27_WritingWhiles_Activity")
+  print()
   print("Day 12 While Loops")
   print()
 

@@ -20,7 +20,8 @@
 
 
 def main():
-  print("Day 12 While Loops")
+  # print("Day 12 While Loops")
+  print("Day12_24_ReadingWhilesChallenge")
   print()
 
   # # Testing Template

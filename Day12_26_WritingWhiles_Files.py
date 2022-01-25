@@ -215,8 +215,11 @@
 
 
 def main():
-  print("Day 12 While Loops")
+  print("Day12_26_WritingWhiles_Files")
   print()
+  # print("Day 12 While Loops")
+  print()
+
 
   # # Testing Template
   # test_input = ["hellothere", "42 degrees Celsius", "eeeeeee"]
