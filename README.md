@@ -13,6 +13,6 @@ Uncomment the function calls you wish to run per example `line` 180 in `Day12_26
 ![example, line 14 in Day 12 26 Writing While Files]  
 [homeMainWhilePy]
 
-[homeMainPy]: https://github.com/TurtleWolfe/Joy_Of_Coding/blob/main/Main.png?raw=true "example, line 14 in Day 12 26 Writing While Files"
+[homeMainPy]: https://github.com/TurtleWolfe/Joy_Of_Coding/blob/main/Main.png?raw=true "example, line 14 in main.py"
 
-[homeMainWhilePy]: https://github.com/TurtleWolfe/Joy_Of_Coding/blob/main/MainWhile.png?raw=true "example, line 14 in main.py"
+[homeMainWhilePy]: https://github.com/TurtleWolfe/Joy_Of_Coding/blob/main/MainWhile.png?raw=true "example, line 14 in Day 12 26 Writing While Files"
