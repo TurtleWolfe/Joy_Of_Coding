@@ -1,7 +1,9 @@
-# SandBox
-## Joy of Coding with Professor Emily Hill
-couldn't rename the file
-Reference-style: 
-![alt text][logo]
+# Joy Of Coding Academy
+## Joy Of Coding Academy
+## Module One with Professor Emily Hill
+Uncomment the file name you wish to run in main  
+per example `line` 14 below  
+`main` in `main.py`
+![example, line 14 in main.py][homeMainPy]
 
-[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
+[homeMainPy]: https://github.com/TurtleWolfe/Joy_Of_Coding/blob/main/Main.png?raw=true "example, line 14 in main.py"
