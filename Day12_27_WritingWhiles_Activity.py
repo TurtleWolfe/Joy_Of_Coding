@@ -10,19 +10,11 @@
 #################################################
 # Please complete the following
 
-def average_neg_evens(str):
-  #     Write a function average_neg_evens that takes a list of numbers as a parameter, and adds all the negative even numbers (less than 0 and divisible by 2) together and returns their average.
-  #     Example function call:
-  #     print(average_neg_evens([0, 1, 2, -2, -3, -4, 3, 4]))
-  #     Outputs: -3
-  
-  # str=eval(input("Word Me: "))
-  # str=str.lower()
-  # if str.count('e')>=1:
-  #   print(str, ":first (e) occurs at index ? position")
-  #   # first E or e
-  # else:
-  print(str)
+def average_neg_evens(list):
+  # Write a function average_neg_evens that takes a list of numbers as a parameter, and adds all the negative even numbers (less than 0 and divisible by 2) together and returns their average.
+  # print(average_neg_evens([0, 1, 2, -2, -3, -4, 3, 4]))
+  # Outputs: -3
+  return(list)
 
 def count_letter(str, char):
 #     Write a function count_letter that takes a list of strings and a string letter as parameters and returns the number of times this letter occurs, both upper- & lower-cased.
@@ -44,17 +36,19 @@ def main():
   # print()
   # print("Day 12 While Loops")
   print()
+  print(average_neg_evens([0, 1, 2, -2, -3, -4, 3, 4]))
+  # average_neg_evens("average_neg_evens") # average_neg_evens
   # print()
+  # average_neg_evens("average_neg_evens() 'list' object has no attribute 'lower'") # average_neg_evens
+
+  print()
   list = ["HELLO", "goodbye", "1234 Oooh!"]
   # print(count_letter(list))
   # print(count_letter(list, "o"))
   #  Outputs: 6
   count_letter("count_letter", "a") # count_letter
-  count_letter("count_letter() takes 1 positional argument but 2 were given", "a") # count_letter  
+  # count_letter("count_letter() takes 1 positional argument but 2 were given", "a") # count_letter  
   print()
-  average_neg_evens("average_neg_evens") # average_neg_evens
-  average_neg_evens("average_neg_evens() 'list' object has no attribute 'lower'") # average_neg_evens
-  # print(average_neg_evens([0, 1, 2, -2, -3, -4, 3, 4]))
 
   # Testing Template
   # test_input = ["hellothere", "42 degrees Celsius", "eeeeeee"]

@@ -1,35 +1,22 @@
 # Joy of Coding
 # via Prof. Emily Hill
 # Beginning Python Challenge
+def main(fileName):
+  __import__ (fileName)
+  fileName
+# main("Day09_Pyramid")
 
-# import Day12_23_WritingWhiles
-# Day12_23_WritingWhiles
+# main("Day12_22_ReadingWhiles")
+main("Day12_23_WritingWhiles")
+# main("Day12_24_ReadingWhilesChallenge")
+# main("Day12_25_ReadingWhilesEnrichment")
+# main("Day12_26_WritingWhiles_Files")
+# main("Day12_27_WritingWhiles_Activity")
 
-# def main(fileName):
-#   import fileName
-#   fileName
+##########################################
 
-# main(Day09_Pyramid)
-
-
-
-# import Day12_23_WritingWhiles
-# Day12_23_WritingWhiles
-
-# import Day12_24_ReadingWhilesChallenge
-# Day12_24_ReadingWhilesChallenge
-
-# import Day12_25_ReadingWhilesEnrichment
-# Day12_25_ReadingWhilesEnrichment
-
-# import Day12_26_WritingWhiles_Files
-# Day12_26_WritingWhiles_Files
-
-import Day12_27_WritingWhiles_Activity
-Day12_27_WritingWhiles_Activity
-
-# import Day13_...
-# Day13_...
-
-# import Day13_...
-# Day13_...
+# main("Day13_23_WritingWhiles")
+# main("Day13_24_ReadingWhilesChallenge")
+# main("Day13_25_ReadingWhilesEnrichment")
+# main("Day13_26_WritingWhiles_Files")
+# main("Day13_27_WritingWhiles_Activity")
