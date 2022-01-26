@@ -12,7 +12,7 @@ def even(start,end):
     if start%2==0:
         print(start)
     start = start+1
-                      #        def printInput(str): I  one
+                      #        def even(start,end): I  one
 def find_e(str):
 # (WW2) Write a program that gets a string as input from the user, and finds the index of the first occurrence of the letter ‘e’ (upper or lower case). Your program should define a function that takes a string as a parameter and returns the e index. If the string does not contain an e, the function should return -1.
 # Example call        Returns
@@ -27,7 +27,7 @@ def find_e(str):
     # first E or e
   else:
     print("-1")
-                      #        def printInput(str): II  two
+                      #        def find_e(str): II  two
 def printInput(str):
 # (WW3) Create a program that allows the user to enter a list of strings, prints them out in sorted order, and prints the number of strings entered as well as the total number of characters in all the strings in the list. Prompt the user to continue entering phrases, and enter ‘Q’ when finished. If the user enters an empty string, output an informative error message. Test your program.
 
@@ -174,7 +174,7 @@ def mix_files(str):
   #   # first E or e
   # else:
   print(str)
-                      #        def printInput(str):Enrichment_IItwo
+                      #        def mix_files(str)Enrichment_IItwo
 def main():
   # print("Day12_26_WritingWhiles_Files")
   # print()
@@ -191,23 +191,20 @@ def main():
   print()
   print("Day12_26_WritingWhiles_Files")
   print()
-  # print()
-  # print(pick_A_Beatlez("The Beatles"))  
-  # print(pick_A_Beatlez("John Lennon"))  
 
   #why this have none?
-  print(printInput("printInput")) 
+  # print(printInput("printInput")) 
   print()
     # why this have none?
-  print(printNumberFilez("printNumberFilez"))  
+  # print(printNumberFilez("printNumberFilez"))  
   # print(printNumberFilez("numberNumberFilez")) 
   print()
   # why this have none?
-  print(mix_lists("mix_Listz"))  
-  # print(mix_lists("mix_lists")) 
+  # print(mix_lists("mix_Listz"))  
+  print(mix_lists("mix_lists")) 
   print()
-  print(mix_files("MIX_FILES"))  
+  # print(mix_files("MIX_FILES"))  
   # print(mix_files("Ringo Star"))  
   # print(mix_files("Robert Paulson"))  
-  print()
+  # print()
 main()  # end of Curled Main.. 
