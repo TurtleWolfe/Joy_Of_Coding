@@ -40,6 +40,7 @@ def find_e(str):
 # > Please enter a phrase (‘Q’ to finish) q
 # > Please enter a phrase (‘Q’ to finish) Q
 # > You entered 4 strings and 29 characters.
+
 def printInput(str):
   # str=eval(input("Word Me: "))
   str=str.lower()
@@ -174,29 +175,25 @@ def mix_files(str):
 
 def main():
   print("Day12_26_WritingWhiles_Files")
-  # print()
-  # print("Day 12 While Loops")
   print()
-
+  even(-300,-280)
+  # print()
   # even(2,20)
-  # even(2,20)
-  # even(2,20)
-  even(2,20)
   print()
   # Example call        Returns
-  find_e("hello") #    1
-  find_e("hEllo") #    1
-  find_e("how")  #      -1
+  find_e("hello")       #   1
+  find_e("hEllo")       #   1
+  find_e("how")         #  -1
   print()
-  printInput("Print Input") #    print Input
+  # printInput("Print Input") #    print Input
+  print()
+  # printFileInput("File Input") # print File Input
   # print()
-  printFileInput("File Input") # print File Input
+  # printNumberFilez("printNumberFilez") #
   # print()
-  printNumberFilez("printNumberFilez") #
+  # mix_files("mix_files") # mix_files
   # print()
-  mix_files("mix_files") # mix_files
-  # print()
-  mix_lists("mix_lists") # mix_lists
+  # mix_lists("mix_lists") # mix_lists
 
   # # Testing Template
   # test_input = ["hellothere", "42 degrees Celsius", "eeeeeee"]
