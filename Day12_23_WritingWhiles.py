@@ -73,13 +73,20 @@ def numList(i):
 # Create a program that allows the user to enter in a list of numbers, prints them out in sorted order, and prints the sum and average of the numbers. Prompt the user to continue entering numbers, and enter the number ‘0’ when finished.
   numbers=[]
   while i != 0:
-    i = float(input("Please enter a number: "))
+    i = float(input("enter a number, or '0' when done: "))
     numbers.append(i)
     # numbers = numbers.extend(a)
     # numbers = numbers.insert(0,a)
-    print(i)
-    print(numbers)
-  return(i)
+    # numbers = numbers.sort()
+    print()
+    print()
+    print("Sort: ", numbers[:-1])
+    print("Sum: ", numbers[:-1])
+    print("Average: ", numbers[:-1])
+    # print(i)
+    # print(numbers[:-1])
+  # return(i)
+  return(numbers)
 # return(numList)
 
 def main():
