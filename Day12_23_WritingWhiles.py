@@ -5,57 +5,57 @@
 # Day 12
 # Practice: Writing While Loops (2 hours)
 # print the following using while loops:
-def oneLoopz(i):  
-# i=1
-  while i < 6:
-    print(i)
-    i+=1
+def countTo_i(loopZ):  
 # 1
 # 2
 # 3
 # 4
 # 5
+  i=1
+  while i < loopZ+1:
+    print(i)
+    i+=1
   print()
-  print("oneLoopz")
+  # print("countTo_i")
   print()
   return()
+# return(countTo_i)
 
-def twoLoopz(i):  
-# i=2
-  # print("twoLoopz")
-  # print()
-  while i < 11:
-    print(i)
-    i+=3
+def loop_leapThree(maX_loopZ):  
+
 # 2
 # 5
 # 8
 # 11
+
+  i=2
+  # print("loop_leapThree")
+  # print()
+  while i < maX_loopZ+1:
+    print(i)
+    i+=3
+
   return(i)
-# return(twoLoopz)
+# return(loop_leapThree)
 
 def threeLoopz(i):  
-  print("threeLoopz")
+# -10 -8 -6 -4 -2 0
   while i < 1:
     print(i, end=' ')
     i+=2
-  # print()
-# -10 -8 -6 -4 -2 0
   print()
   return()
 # return(threeLoopz)
 
 def fourLoopz(i):  
+# ****
+# ****
+# ****
+# ****
   while i > 0:
     i-=1
     print("****")
-# ****
-# ****
-# ****
-# ****
   print()
-  print("fourLoopz")
-  # print()
   return(i)
 # return(fourLoopz)
 
@@ -92,33 +92,25 @@ def numList(i):
 def main():
   print("Day12_23_WritingWhiles")
   print()
-# why this one print ()?
-  # print(oneLoopz(1)) 
+  countTo_i(5) 
+  # countTo_i(9) 
   # print()
 
-# why this one clean?
-  # print(twoLoopz(1)) 
-  # print()
-  # print(twoLoopz(2)) 
-  # # print()
+  loop_leapThree(11)
+  print()
 
-# why this one print ()?
-  # print(threeLoopz(-10)) 
-  # print()
+  threeLoopz(-10) 
+  print()
 
-# why this one print zero?
-  # print(fourLoopz(4)) 
-  # print()
+  fourLoopz(4) 
+  print()
 
-  # print(csciOneFifty("csciOneFifty"))  
-  # print(csciOneFifty("CSCI 150"))
-
+  print(csciOneFifty("csciOneFifty"))  
+  print(csciOneFifty("CSCI 150"))
   # print()
-  # numList("9")
-  numList(9)
+  numList("9")
+  # numList(9)
   # numList("0")
   # numList(0)
-  # numList()
-  # print(numList("0"))  
   print()
 main()  # end of Curled Main.. 
