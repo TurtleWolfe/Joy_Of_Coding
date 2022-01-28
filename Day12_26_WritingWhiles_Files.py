@@ -10,7 +10,7 @@ def even(start,end):
     if start%2==0:
         print(start)
     start = start+1
-          #        def even(start,end): I  one
+          #  print even numbers from start to end
 def find_e(str):
 # (WW2) Write a program that gets a string as input from the user, and finds the index of the first occurrence of the letter ‘e’ (upper or lower case). Your program should define a function that takes a string as a parameter and returns the e index. If the string does not contain an e, the function should return -1.
 # Example call        Returns
@@ -25,9 +25,7 @@ def find_e(str):
     # first E or e
   else:
     print("-1")
-          # 1
-          # 1
-          # -1
+          # -1 find index of "e"
           #        def find_e(str): II  two
 def printInput(str):
 # (WW3) Create a program that allows the user to enter a list of strings, prints them out in sorted order, and prints the number of strings entered as well as the total number of characters in all the strings in the list. Prompt the user to continue entering phrases, and enter ‘Q’ when finished. If the user enters an empty string, output an informative error message. Test your program.
@@ -179,6 +177,7 @@ def mix_files(str):
 def main():
   print("Day12_26_WritingWhiles_Files")
   even(-321,-309)
+  # even(321,-309)
   # even(2,20)
   print()
   find_e("hello")       #   1
@@ -194,5 +193,12 @@ def main():
   mix_lists("mix_lists") 
   mix_files("MIX_FILES")  
   mix_files("Robert Paulson")
-  mix_files("Ringo Starr")
-main()  # end of Curled Main..
+  mix_files("TurtleWolfe.com")
+# by, TurtleWolfe.com
+# While Loops (2 hours)
+# Day 12
+#################################
+  print()
+main()  # end of Curled Main.. 
+###########################
+############
