@@ -7,10 +7,10 @@
 
 # ?
 def f(x): 
-	x = x-1
-	return g(x)+1
+	x = x-1 #minus one
+	return g(x)+1 # then multipy by 2 plus one
 
-# multiply?
+# multiply by 2?
 def g(x):
 	return x*2
 

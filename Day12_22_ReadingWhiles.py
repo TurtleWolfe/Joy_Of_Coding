@@ -124,4 +124,12 @@ def main():
   jdeltaFunction("jdeltaFunction") 
   # epsilonFunction("epsilonFunction") 
   # omicronFunction("omicronFunction") 
-main()  # end of Curled Main..
+
+# by, TurtleWolfe.com
+# While Loops (2 hours)
+# Day 12
+#################################
+  print()
+main()  # end of Curled Main.. 
+###########################
+#################
