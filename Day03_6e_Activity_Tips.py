@@ -16,18 +16,18 @@ def alpha_Function(i):
 def beta_Function(meal, tax, tip):
 #tips.py
 # meal = 53.48
-  print("Meal: $",meal)
+  print("Meal: $ "+str(meal))
 # tax = .07
-  print("Tax:  $",tax)
+  print("Tax:  $ "+str(tax))
 # tip = .18
-  print("Tip:  $",tip)
+  print("Tip:  $ "+str(tip))
   print()
   
   mealTax = meal * tax
   mealTip = meal * tip
   total = meal + mealTax + mealTip
   print("the cost of your meal\n  with tax & tip would be ")
-  print("$",total)
+  print("$ "+str(total))
   print()
 # 66.85
   return(total)
@@ -43,7 +43,7 @@ def main():
   # print()
   charlie_Function("Day03...") 
   charlie_Function("Arithmetic") 
-  alpha_Function("TurtleWolfe") 
+  # alpha_Function("TurtleWolfe") 
   beta_Function(53.48,.07,.18) 
 
 # by, TurtleWolfe.com

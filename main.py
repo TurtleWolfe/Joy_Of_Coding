@@ -6,8 +6,12 @@ def main(fileName):
   fileName
 
 
+# main("Day02_0a_")
 # main("Day01_01")
-
+# main("Day02_0a_")
+# main("Day02_0a_")
+# main("Day02_0a_")
+# main("Day02_0a_")
 # main("Day02_0a_")
 # main("Day02_0b_types")
 # main("Day02_0c_variables")
@@ -20,25 +24,46 @@ def main(fileName):
 # main("Day03_7f_SelfAssessMentQUIZZ")
 
 # main("Day04_6e_Input-Reading")
-main("Day04_6f_Input-Writing")
+# main("Day04_6f_Input-Writing")
 
 ################################
-# main("Day05_6e_Input-Reading")
-# main("Day05_6f_Input-Writing")
-# main("Day06_6e_Input-Reading")
-# main("Day06_6f_Input-Writing")
-# main("Day07_6e_Input-Reading")
-# main("Day07_6f_Input-Writing")
-# main("Day08_6e_Input-Reading")
-# main("Day08_6f_Input-Writing")
+# Day 5. Using Functions (2 hours)
+# main("Day05_6e_UsingFunctionsWS")
+#  -- mad.py & maths.py
+# main("Day05_7f_UsingFunctionsWriting")
+#  -- poem.py & madfun.py
+# main("Day05_8g_UsingFunctionsPractice")
 
-# main("Day99_9z_Reading ")
-# main("Day99_9z_Writing")
+#  -- num.py  Center Emily's Number
+main("Day05_9i_UsingFunctions-QUIZZ2SA")
+# main("Day05_9j_UsingFunctions-QUIZ")
+
+# main("Day06_Loops")
+main("Day06_2LE-ForLoopsWriting1")
+main("Day06_3LE-ForLoopsWriting2")
+main("Day06_4LE-ForLoopsWriting3")
+
+# main("Day07_7_Input-Reading")
+# main("Day07_01-Reading-Ifs1")
+# main("Day07_01-Reading-Ifs2")
+
+# main("Day07_7a_SelfAssessMentQUIZZ")
+    # Score for this attempt: 4 out of 41 * 
+# main("Day07_7b_SelfAssessMentQUIZZ")
+    #  Time Limit 40 Minutes Allowed Attempts 3 
+    # Score for this attempt: 58 out of 100 
+
+
+# main("Day08_8_Input-Reading")
+print("main.py")
 ################################
+
+
 
 # main("Day09_Pyramid")
 # main("Day09_Flow")
 # main("Day09_Defs")
+# main("Day09_Absolute_Difference")
 
 # main("Day12_22_ReadingWhiles")
 # main("Day12_23_WritingWhiles")
