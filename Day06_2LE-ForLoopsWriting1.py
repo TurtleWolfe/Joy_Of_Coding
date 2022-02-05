@@ -49,24 +49,9 @@ def feta_Function(firsT, lasT):
   # print(numBer)
   return(firsT, lasT+1)
   # beta_Function("namE")
-   
-def gamma_Function(numBer):
-  for i in range(numBer,1,2):
-    print(i, end=" ")
-  # print(numBer)
-  return(numBer)
-  # charlie_Function("namE") 
-
-def hector_Function(char,brK,roW):
-  for i in range(roW):
-    print(char * brK)
-  # print(numBer)
-  return(char, brK, roW)
-  # delta_Function("namE") 
-
 
 def main():
-  # print("Day06_2LE-ForLoopsWriting1.py") 
+  print("Day06_2LE-ForLoopsWriting1.py") 
   # alpha_Function(5) 
   # beta_Function(11) 
   # charlie_Function(-10) 

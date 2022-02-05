@@ -35,12 +35,12 @@ def main(fileName):
 # main("Day05_8g_UsingFunctionsPractice")
 
 #  -- num.py  Center Emily's Number
-main("Day05_9i_UsingFunctions-QUIZZ2SA")
+# main("Day05_9i_UsingFunctions-QUIZZ2SA")
 # main("Day05_9j_UsingFunctions-QUIZ")
 
 # main("Day06_Loops")
-main("Day06_2LE-ForLoopsWriting1")
-main("Day06_3LE-ForLoopsWriting2")
+# main("Day06_2LE-ForLoopsWriting1")
+# main("Day06_3LE-ForLoopsWriting2")
 main("Day06_4LE-ForLoopsWriting3")
 
 # main("Day07_7_Input-Reading")

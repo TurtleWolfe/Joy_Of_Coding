@@ -45,7 +45,7 @@ def sumTenPy(averageInputs):
   # sumTenPy("namE") 
 
 def main():
-  # alpha_Function("Day06_4LE-ForLoopsWriting3.py") 
+  print("Day06_4LE-ForLoopsWriting3.py") 
   alpha_Function(-16,16,4) 
   beta_Function(10,100,10) 
   sumTenPy(3)

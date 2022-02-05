@@ -37,7 +37,7 @@ def avgPy(averageInputs):
   # avgPy("namE") 
 
 def main():
-  # print("Day06_3LE-ForLoopsWriting2.py") 
+  print("Day06_3LE-ForLoopsWriting2.py") 
   # alpha_Function("Day06_3LE-ForLoopsWriting2.py") 
   alpha_Function(10,-25) 
   # alpha_Function(10,25) 
