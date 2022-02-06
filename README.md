@@ -1,6 +1,14 @@
 # Joy Of Coding Academy
-## with Professor Emily Hill
+  ## with Professor Emily Hill
 ### Module One
+  1. #### VARIABLES       2
+  1. #### MATH & LOGIC    3
+  1. #### INPUT & OUTPUT  4
+  1. #### CONDITIONALS
+  1. #### LOOPS           6
+  1. #### FUNCTIONS       5
+  1. #### LISTS
+
 Uncomment the file name you wish to run in main  
 per example `line` 14 below  
 `main` in `main.py`
