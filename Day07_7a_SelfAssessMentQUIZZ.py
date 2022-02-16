@@ -82,26 +82,62 @@ def indigo_Function(i):
   # indigo_Function("question six") 
 
 def main():
-  print("Day03... Quizz")
+  print("Day07... Quizz")
   # print()
   # alpha_Function("Day03...") 
   # beta_Function("beta_Function: import turtle &draw a triangle") 
   # beta_Function(60,"left") 
   # beta_Function(90) 
-  print()
-  charlie_Function("question one") 
-  delta_Function("question two")
-  epsilon_Function("question three") 
-  gamma_Function("question four") 
   # print()
-  hector_Function("question five") 
-  indigo_Function("question six") 
+  # charlie_Function("question one") 
+  # delta_Function("question two")
+  # epsilon_Function("question three") 
+  # gamma_Function("question four") 
+  # print()
+  # hector_Function("question five") 
+  # indigo_Function("question six") 
+  for i in range(-3, 4, 2):
+    print(i, end=':')
+  print()
+
+    # b
+  for z in range(5):
+    print(5, end='')
+  print()
+
+    # c
+  phrase = "hello"
+  for x in phrase:
+    print(x, end='--')
+  print("END")
+
+    # d
+  phrase = "hope"
+  for c in phrase:
+    print(c * 4, end=' ')
+  print()
+
+    # e
+  string = "Last Jedi"
+  x = 0
+  for s in string:
+    print(x, s, end=' ')
+    x += 1
+  print()
+
+    # f
+  for r in range(45, -45, -25):
+    print(r, end='|')
+  print()
+
+    # g
+  for q in range(34, 5):
+    print(q)
 
 # by, TurtleWolfe.com
 # Arithmetic
 # Day 03
 #################################
-  print() # may duplicate blank line from main
 main()  # end of Curled Main.. 
 ###########################
 ########################################

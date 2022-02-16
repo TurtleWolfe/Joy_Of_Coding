@@ -184,12 +184,42 @@ def delta_Function(listOfFiles):
         for line in Lines:
             count += 1
         # print(currentFile, ":", count, "lines", ",", count*2, "words")
-        print(currentFile, ":", count, "lines", ",", count, "words")
+        # print(currentFile, ":", count, "lines", ",", count, "words")
 
-        data = file1.read()
-        words = data.split()
+        # data = file1.read()
+        # words = data.split()
 
-        print('Number of words in text file :', len(words))
+        # print('Number of words in text file :', len(words))
+
+#################################################
+# https://www.geeksforgeeks.org/python-program-to-count-words-in-text-file/
+        # creating variable to store the
+        # number of words
+        number_of_words = 0
+
+        # Opening our text file in read only
+        # mode using the open() function
+        # with open(r'text1.txt', 'r') as file:
+        with open(currentFile, 'r') as file:
+
+            # Reading the content of the file
+            # using the read() function and storing
+            # them in a new variable
+            data = file.read()
+
+            # Splitting the data into separate lines
+            # using the split() function
+            lines = data.split()
+
+            # Adding the length of the
+            # lines in our number_of_words
+            # variable
+            number_of_words += len(lines)
+
+        # Printing total number of words
+        # print(number_of_words)
+        print(currentFile, ":", count, "lines", ",", number_of_words, "words")
+
 #################################################
     return(currentFile)
     # delta_Function()
